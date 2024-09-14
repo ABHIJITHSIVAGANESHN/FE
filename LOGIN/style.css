@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", cursive;
+
+
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://th.bing.com/th/id/OIP.cTpMDgRzbf1lJzO7LOcTBgHaEK?w=604&h=340&rs=1&pid=ImgDetMain) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: azure;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height:60px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    color:azure;
+    padding: 20px 45px 20px 20px ;
+
+}
+
+.input-box input::placeholder{
+    color: antiquewhite;
+}
+
+.input-box i {
+    
+    font-size: 20px;
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+
+.remember-forget a{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+} 
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: thistle;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor:pointer;
+    font-size: 16px;
+    color:black;
+    font-weight: 600;
+}
+
+
+.wrapper .register-link{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-weight:600;
+}
